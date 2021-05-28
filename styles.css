@@ -7,6 +7,13 @@ white - #ffffff;
 black - #000000; */
 
 body {
+  align-items: center;
+  background: linear-gradient(#134d71, #78a7c6, #f7e4bf);
+  background-attachment: fixed;
+  text-align: center;
+}
+
+/* body {
   text-align: center;
   background-color: #134d71;
   position: fixed;
@@ -14,7 +21,7 @@ body {
   height: 100%;
   left: 0;
   top: 0;
-}
+} */
 
 #title {
   font-family: 'Quicksand', sans-serif;
@@ -47,4 +54,7 @@ body {
   width:900px;
   background-color: #ffffff
 }
+
+.meditation-icon {
+
 }
