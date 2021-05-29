@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
   </head>
+
   <body>
     <h1 id = "title">✨Self Care Center✨</h1>
-    <section >
-      <h3 id = "sub-title">Which type of message?</h3>
+
+    <section class = >
+      <h2 id = "sub-title">Which type of message?</h2>
     </section>
-    <section class = "box">
-      <form class = "radio-box">
-        <input class = "radio-button" id ="affirmation"  type ="radio">
-        <label for ="affirmation"><em>affirmation</em></label>
-        <input class ="radio-button" id ="mantra" type ="radio">
-        <label for = "mantra"><em>mantra</em></label>
-        <br />
-        <input class ="receive-message" type ="submit" value ="Receive Message"></input>
-      </form>
-    </section>
+
+    <form class = "radio-box">
+      <div>
+        <input type ="radio" id ="choice1" name ="radio-button" value = "shallow-thought" checked>
+        <label for ="choice1"><em>Shallow Thoughts</em></label>
+
+        <input type ="radio" id ="choice2" name ="radio-button" value = "deep-thought" >
+        <label for ="choice2"><em>Deep Thoughts</em></label>
+      </div>
+      <br />
+      <div>
+        <input class ="receive-message" type ="submit" value ="Get Knowledge"></input>
+      </div>
+    </form>
+    <!-- <pre id ="log"> -->
     <section class ="image-box">
       <img class = "meditation-icon" src ="assets/meditate.svg" alt ="meditation-icon" />
+    </section>
+
+    <section class ="message-box hidden" id = "message-display">
+      <p id ="message" ></p>
     </section>
 
 
