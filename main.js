@@ -4,42 +4,69 @@
 // this could potentially be a toggle between image element and text content element or a hidden box event listener
 // The message will be stored in an array
 
-
-// Query Selectors
-var message = document.getElementById('message');
-var messageWindow = document.querySelector('.message-box');
-var imageWindow = document.querySelector('.image-box');
-//Should search the <form> element
-var messageForm = document.querySelector('form');
-var messageValue = document.querySelector('#log');
+// Data
 var deepThoughts = ["Hey","You"];
 var shallowThoughts = ["Is there anybody out there?", "Pigs on a Wing"];
 
 
+// Query Selectors
+var messageWindow = document.querySelector('.message-box');
+var imageWindow = document.querySelector('.image-box');
+var submitButton = document.querySelector('.receive-message');
+var messageForm = document.querySelector('form');
+var gong = document.querySelector('.gong');
+
+
+
 //Event Listeners
 
-// should invoke the recieveMessage function when the "submit" button is clicked
-messageForm.addEventListener("submit", receiveMessage);
+submitButton.addEventListener("click", receiveMessage);
 
 // Event Handlers
 
+function show(icon){
+
+};
+
+function hide(icon) {
+
+};
+
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);
-}
+};
 
-// should search the <form> element for the checked radio box and return the value
 function receiveMessage() {
-  event.preventDefault();
-  if (messageForm.value = "shallow-thought") {
-    message.innerText = shallowThoughts[getRandomIndex(shallowThoughts)];
-  } else (messageForm.value = "deep-thought") {
-    message.innerText = deepThoughts[getRandomIndex(deepThoughts)];
-  }
-  revealMessage()
-}
+    if (messageForm[0].checked) {
+      messageWindow.innerText = shallowThoughts[getRandomIndex(shallowThoughts)];
+    }  else {
+        messageWindow.innerText = deepThoughts[getRandomIndex(deepThoughts)];
+    };
+    gong.classList.add('hidden');
+    messageWindow.classList.remove('hidden');
+  };
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // event.preventDefault();
+
+  // if (radioButton1.checked) {
+    // return message.innerText =
+  //   // message.innerText = deepThoughts[getRandomIndex(deepThoughts)];
+  //
 
 // should hide imageWindow and show messageWindow
-function revealMessage() {
-  imageWindow.classList.add("hidden");
-  messageWindow.classList.remove("hidden");
-  }
+// function revealMessage() {
+  // imageWindow.classList.add("hidden");
+  // messageWindow.classList.remove("hidden");
+  // }
