@@ -10,15 +10,21 @@
       <h2 class ="title quicksand">Which type of message?</h2>
     </section>
     <form class ="radio-box quicksand">
-      <div>
-        <input type ="radio" id="choice1" name ="radio-button" value = "shallow-thought" checked>
-        <label for ="choice1" class ="text-italic">Shallow Thoughts</label>
-        <input type ="radio" id ="choice2" name ="radio-button" value ="deep-thought" >
-        <label for ="choice2" class ="text-italic">Deep Thoughts</label>
+      <div class ="input-flex" >
+        <div>
+          <input type ="radio" id="choice1" name ="radio-button" value = "shallow-thought" checked>
+          <label for ="choice1" class ="text-italic">Shallow Thoughts</label>
+        </div>
+        <div>
+          <input type ="radio" id ="choice2" name ="radio-button" value ="deep-thought" >
+          <label for ="choice2" class ="text-italic">Deep Thoughts</label>
+        </div>
       </div>
       <br />
       <div>
-        <button class ="receive-message" type ="button">Get Knowledge></button>
+        <button class ="receive-message" type ="button">Get Knowledge</button>
+        <br />
+        <button class ="delete-message hidden" type ="button">Trash Knowledge</button>
       </div>
     </form>
     <section class ="image-box">

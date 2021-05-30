@@ -7,7 +7,6 @@ white - #ffffff;
 black - #000000; */
 
 body {
-  align-items: center;
   background: linear-gradient(#134d71, #78a7c6, #f7e4bf);
   background-attachment: fixed;
   text-align: center;
@@ -21,12 +20,21 @@ font-style: italic;
 font-family: 'Quicksand', sans-serif;
 }
 
+.text-red {
+  color: red
+}
+
 .title {
   color: #ffffff
 }
 
 .hidden {
   display: none!important;
+}
+
+.input-flex {
+  display: flex;
+  justify-content: space-around;
 }
 
 .radio-box {
