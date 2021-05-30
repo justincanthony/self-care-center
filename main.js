@@ -10,11 +10,11 @@ var shallowThoughts = ["Is there anybody out there?", "Pigs on a Wing"];
 
 
 // Query Selectors
-var messageWindow = document.querySelector('.message-box');
+var messageWindow = document.querySelector('#message-display');
 var imageWindow = document.querySelector('.image-box');
 var submitButton = document.querySelector('.receive-message');
 var messageForm = document.querySelector('form');
-var gong = document.querySelector('.gong');
+var gong = document.querySelector('.gong-image');
 
 
 
@@ -23,14 +23,6 @@ var gong = document.querySelector('.gong');
 submitButton.addEventListener("click", receiveMessage);
 
 // Event Handlers
-
-function show(icon){
-
-};
-
-function hide(icon) {
-
-};
 
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);
@@ -42,31 +34,7 @@ function receiveMessage() {
     }  else {
         messageWindow.innerText = deepThoughts[getRandomIndex(deepThoughts)];
     };
-    gong.classList.add('hidden');
-    messageWindow.classList.remove('hidden');
-  };
 
-
-
-
-
-
-
-
-
-
-
-
-
-  // event.preventDefault();
-
-  // if (radioButton1.checked) {
-    // return message.innerText =
-  //   // message.innerText = deepThoughts[getRandomIndex(deepThoughts)];
-  //
-
-// should hide imageWindow and show messageWindow
-// function revealMessage() {
-  // imageWindow.classList.add("hidden");
-  // messageWindow.classList.remove("hidden");
-  // }
+  gong.classList.add('hidden');
+  messageWindow.classList.remove('hidden');
+};
