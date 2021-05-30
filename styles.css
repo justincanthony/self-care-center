@@ -23,13 +23,15 @@ body {
   top: 0;
 } */
 
-#title {
-  font-family: 'Quicksand', sans-serif;
-  color: #ffffff
+.text-italic {
+font-style: italic;
 }
 
-#sub-title {
-  font-family: 'Quicksand', sans-serif;
+.quicksand {
+font-family: 'Quicksand', sans-serif;
+}
+
+.title {
   color: #ffffff
 }
 
@@ -41,7 +43,6 @@ body {
 } */
 
 .radio-box {
-  font-family: 'Quicksand',sans-serif;
   border-radius: 10px;
   margin: 100px auto 10px auto;
   height:90px;
@@ -63,9 +64,12 @@ body {
   width:875px;
   background-color: #ffffff
 }
-.meditation-icon {
+.gong {
 align-content: center;
 max-width: 50%;
 max-height: 50%;
 margin-top: 37px
 }
+/* p {
+  font-color: #000000;
+} */
