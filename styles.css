@@ -12,6 +12,15 @@ body {
   text-align: center;
 }
 
+.button {
+  background: #134d71;
+  color: #ffffff;
+  height:25px;
+  width: 150px;
+  border: none;
+  border-radius: 5px
+}
+
 .text-italic {
 font-style: italic;
 }
@@ -25,11 +34,22 @@ font-family: 'Quicksand', sans-serif;
 }
 
 .title {
+  margin-top: 50px;
   color: #ffffff
 }
 
 .hidden {
   display: none!important;
+}
+
+.sub-heading {
+  color: #ffffff;
+  margin: 125px auto 10px auto;
+}
+
+.message-buttons-flex {
+  display: flex;
+  justify-content: space-around;
 }
 
 .input-flex {
@@ -39,10 +59,15 @@ font-family: 'Quicksand', sans-serif;
 
 .radio-box {
   border-radius: 10px;
-  margin: 100px auto 10px auto;
+  margin: 10px auto 10px auto;
   height:90px;
   width:575px;
   background-color: #ffffff
+}
+
+.image-box-flex {
+  display: flex;
+  justify-content: center;
 }
 
 .image-box {
