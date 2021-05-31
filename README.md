@@ -10,18 +10,21 @@ The purpose of this application is to display one of two types messages based on
 
 __How to use the Application__
 
-- On the main page, user will select one of two radio boxes "mantras" or "affirmations".
+On the main page, user will select one of two radio boxes "mantras" or "affirmations".
 
-- Once a box has been checked, the user will click the "receive message" button.
+![Main Page](https://github.com/justincanthony/self-care-center/blob/main/readme-imgs/self-care-main-page.png)
 
-- A message will appear where the image of meditation gong was located.
+Once a box has been checked, the user will click the "receive message" button. 
+A message will appear where the image of meditation gong was located.  
+At this point the user can delete the message by choosing the "delete message button"
+or they can receive a new message by clicking the "receive message" button.  
 
-- At this point the user can delete the message by choosing the "delete message button" or they can receive a new message by clicking the "receive message" button.
+![Message View](https://github.com/justincanthony/self-care-center/blob/main/readme-imgs/self-care-message.png)
 
 __Future Features__
 
--enchanced user interface with animated buttons
--create user login for increased personalization features
--ability to listen to soothing meditation sounds
--access to meditation videos
--abilty to create and save custom messages
+- enchanced user interface with animated buttons
+- create user login for increased personalization features
+- ability to listen to soothing meditation sounds
+- access to meditation videos
+- abilty to create and save custom messages
