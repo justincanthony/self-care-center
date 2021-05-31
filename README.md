@@ -1,8 +1,10 @@
 # Self Care Center
 
 Contributor: [Justin Anthony](https://github.com/justincanthony)
+
 Technology Stack: HTML, JavaScript, CSS
-[Deploy Link](file:///Users/justin-turing/turing/mod_1/mod_1_projects/self-care-center/index.html)
+
+[Deploy Link](https://justincanthony.github.io/self-care-center/)
 
 __User Information__
 
