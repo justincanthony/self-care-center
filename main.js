@@ -1,8 +1,3 @@
-// user selects radio button affirmation or mantra
-// user clicks recieve message
-// random message appears in new window replacing the image icon
-// this could potentially be a toggle between image element and text content element or a hidden box event listener
-// The message will be stored in an array
 
 // Data
 var mantras = ["I forgive myself and set myself free.",
@@ -43,8 +38,6 @@ var submitButton = document.querySelector('.receive-message');
 var deleteButton = document.querySelector('.delete-message')
 var messageForm = document.querySelector('form');
 var gong = document.querySelector('.gong-image');
-// var mantraMessage = "";
-// var affirmationMessage = "";
 
 
 //Event Listeners
@@ -96,23 +89,3 @@ function deletemantrasMessage() {
     }
   }
 };
-
-
-
-// Display Delete message
-// we need element
-// User Delete message
-// User should be able to delete message when the message appears
-//
-// "Get Knowledge" is pressed.
-// image element hides
-// p element appears
-//
-// new button appears to delete message
-// user clicks delete message
-// message is removed from array
-// <p> element is hidden
-// delete button is removed
-// <img> element returns
-//
-// We need to know which array our message is sourced from
