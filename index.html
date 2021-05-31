@@ -6,30 +6,32 @@
   </head>
   <body>
     <h1 class ="title quicksand">✨Self Care Center✨</h1>
-    <section class>
-      <h2 class ="title quicksand">Which type of message?</h2>
-    </section>
+    <h2 class ="quicksand sub-heading">Which type of message?</h2>
     <form class ="radio-box quicksand">
+      <br />
       <div class ="input-flex" >
         <div>
           <input type ="radio" id="choice1" name ="radio-button" value = "shallow-thought" checked>
-          <label for ="choice1" class ="text-italic">Shallow Thoughts</label>
+          <label for ="choice1" class ="text-italic">mantras</label>
         </div>
         <div>
           <input type ="radio" id ="choice2" name ="radio-button" value ="deep-thought" >
-          <label for ="choice2" class ="text-italic">Deep Thoughts</label>
+          <label for ="choice2" class ="text-italic">affirmations</label>
         </div>
       </div>
       <br />
-      <div>
-        <button class ="receive-message" type ="button">Get Knowledge</button>
-        <br />
-        <button class ="delete-message hidden" type ="button">Trash Knowledge</button>
+      <div class="message-buttons-flex">
+        <button class ="receive-message button quicksand" type ="button">Recieve Message</button>
+        <button class ="delete-message button hidden quicksand" type ="button">Delete Message</button>
       </div>
     </form>
     <section class ="image-box">
       <img class ="gong-image" src ="assets/meditate.svg" alt ="gong" />
-      <p class ="quicksand hidden" id ="message-display"></p>
+    <br />
+    <br />
+      <div class = image-box-flex>
+        <p class ="quicksand hidden" id ="message-display"></p>
+      </div>
     </section>
     <script type="text/javascript" src="main.js"></script>
   </body>

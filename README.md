@@ -1,24 +1,27 @@
 # Self Care Center
-## Overview
-How can I care for myself? One way is with affirmations and mantras!
-Affirmations are thoughts of positive self-empowerment, meant to assert your self-worth.
-Mantras are repetive phrases that are repeated again and again during mindfulness practices. Your challenge is to build an app that helps users remind themselves of their inherent value!
 
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
+Contributor: [Justin Anthony](https://github.com/justincanthony)
+Technology Stack: HTML, JavaScript, CSS
+[Deploy Link](file:///Users/justin-turing/turing/mod_1/mod_1_projects/self-care-center/index.html)
 
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/self-care-center.html). 
+__User Information__
 
-## Learning Goals
+The purpose of this application is to display one of two types messages based on the user's choice. The type of message is selected by a radio input, and the message is received by clicking a "Receive Message" button. Once the button is engaged, a message will appear with another option to delete the message should the user not want to view the message any longer.
 
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
+__How to use the Application__
 
-## Setup
+- On the main page, user will select one of two radio boxes "mantras" or "affirmations".
 
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
+- Once a box has been checked, the user will click the "receive message" button.
 
+- A message will appear where the image of meditation gong was located.
+
+- At this point the user can delete the message by choosing the "delete message button" or they can receive a new message by clicking the "receive message" button.
+
+__Future Features__
+
+-enchanced user interface with animated buttons
+-create user login for increased personalization features
+-ability to listen to soothing meditation sounds
+-access to meditation videos
+-abilty to create and save custom messages
